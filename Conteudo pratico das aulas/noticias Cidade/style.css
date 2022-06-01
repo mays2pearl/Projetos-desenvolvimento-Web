@@ -47,4 +47,91 @@ ul {
     font-size: 0.9em;
     display: block;
     padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(imagens/divisor.png) no-repeat left center;
 }
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+    color: white;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+ #primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+ }
+
+ #duas-colunas #primario {
+    width: 555px;
+ }
+
+ #uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0; 
+ }
+
+ #secundario {
+     width: 270px;
+     float: left;
+     margin: 0 0 20px 15px;
+ }
+
+ .caixa {
+     background: #f3f3f3 url(imagens/fundo-caixa.png);
+     margin: 10px 0;
+     padding: 5px;
+ }
+
+ h2 {
+     font-size: 1em;
+     background: #294c71;
+     color: white;
+     padding: 5px;
+ }
+
+ .caixa-conteudo {
+     background: white;
+     padding: 5px;
+     margin-top: 5px;
+ }
+
+ #container-rodape {
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+ #rodape {
+     width: 750px;
+     margin: 0 auto;
+     color: white;
+ }
+     
+
+ 
